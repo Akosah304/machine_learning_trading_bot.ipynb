@@ -24,3 +24,32 @@ As part of the README.md file in your GitHub repository, you’ll also create a 
 Pandas, Jupyter Lab, PyVizlot, SciKit Learn, Numpy
 
 ## Project analysis and report
+
+## Baseline SVM Model
+
+ ![baseline](Image/baseline.png)
+
+ ![baseline svm](Image/baseline svm.png)
+
+ ## SVM DateOffset 4 months ##
+
+  ![4 months](Image/4 months.png)
+
+![4 months svm](Image/4 months svm.png)
+
+## SVM DateOffset 6 months ## 
+
+  ![6 months](Image/6 months.png)
+
+![6 month svm](Image/6 month svm.png)
+
+## Linear Regression Model ## 
+
+  ![lr model](Image/lr model.png)
+
+![lr graph](Image/lr report.png)
+
+
+## Conclusions ##
+
+When comparing the baseline SVM models, the version with the DateOffset parameter set to 6 months was more exact but still had the same accuracy as the 4 month offset. Compared to the baseline, the 4-month SVM was more accurate but not as exact. Compared to the baseline, the six-month period was more exact and accurate. All things considered, the most useful version of the SVM among those examined is the one with the DateOffset set to six months. The 6-month SVM exhibits greater accuracy when compared to the Linear Regression model. Both models were equally accurate, though. The six-month offset SVM is the model that I would advise using. 
