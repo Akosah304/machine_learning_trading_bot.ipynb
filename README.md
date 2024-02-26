@@ -29,25 +29,25 @@ Pandas, Jupyter Lab, PyVizlot, SciKit Learn, Numpy
 
  ![baseline](Image/baseline.png)
 
- ![baseline svm](Image/baseline svm.png)
+ ![baseline svm](https://github.com/Akosah304/machine_learning_trading_bot.ipynb/blob/main/Image/baseline%20svm.png)
 
  ## SVM DateOffset 4 months ##
 
-  ![4 months](Image/4 months.png)
+  ![Image/4 months.png](https://github.com/Akosah304/machine_learning_trading_bot.ipynb/blob/main/Image/4%20months.png)
 
-![4 months svm](Image/4 months svm.png)
+![Image/4 months svm.png](https://github.com/Akosah304/machine_learning_trading_bot.ipynb/blob/main/Image/4%20months%20svm.png)
 
 ## SVM DateOffset 6 months ## 
 
-  ![6 months](Image/6 months.png)
+  ![6 months](https://github.com/Akosah304/machine_learning_trading_bot.ipynb/blob/main/Image/6%20months.png)
 
-![6 month svm](Image/6 month svm.png)
+![6 month svm](https://github.com/Akosah304/machine_learning_trading_bot.ipynb/blob/main/Image/6%20month%20svm.png)
 
 ## Linear Regression Model ## 
 
-  ![lr model](Image/lr model.png)
+  ![Image/lr model.png](https://github.com/Akosah304/machine_learning_trading_bot.ipynb/blob/main/Image/lr%20model.png)
 
-![lr graph](Image/lr report.png)
+![Image/lr report.png](https://github.com/Akosah304/machine_learning_trading_bot.ipynb/blob/main/Image/lr%20report.png)
 
 
 ## Conclusions ##
