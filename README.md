@@ -43,12 +43,29 @@ Pandas, Jupyter Lab, PyVizlot, SciKit Learn, Numpy
 
 ![6 month svm](https://github.com/Akosah304/machine_learning_trading_bot.ipynb/blob/main/Image/6%20month%20svm.png)
 
+## Evaluating the Logistic Regression Classifier
+
+## Q: Did this new model perform better or worse than the provided baseline model? Did this new model perform better or worse than your tuned trading algorithm?
+
+The LogisticRegression classifier was applied to the baseline data and produced the following results:
+
 ## Linear Regression Model ## 
 
   ![Image/lr model.png](https://github.com/Akosah304/machine_learning_trading_bot.ipynb/blob/main/Image/lr%20model.png)
 
 ![Image/lr report.png](https://github.com/Akosah304/machine_learning_trading_bot.ipynb/blob/main/Image/lr%20report.png)
 
+The accuracy decreased to 52 as a result of this modeling, and although our precision stayed at 56, the recall fell through the floor to 66 in comparison to our baseline of 96, yielding a final return that was less than the Actual Return. Overall, its performance was worser than that of the "tuned" model; nevertheless, testing a variety of SMA windows might have produced better outcomes.
+
+## Q1: What impact resulted from increasing or decreasing the training window?
+
+Adjustment of the model to 6month DateOffSet with the same windows produced a Strategy Retrun of over 1.8. The recall score also improved from 95 to 98.
+
+## Q2: What impact resulted from increasing or decreasing either or both of the SMA windows?
+
+When the SMA window was increased to 50 short and 100 long keeping the baseline 4month DateOffSet, recall increased to 100 whilst accuracy remained at 56. Similar to the 6month DateOffSet the Strategy and Actual returns are the same with a return of just below 1.4
+
+## Q3. The best Strategy Return result tested in the data was a 6mth DateOffSet with the SMA set to 4 short and 100 long as shown below.
 
 ## Conclusions ##
 
