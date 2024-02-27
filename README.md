@@ -71,6 +71,8 @@ When the SMA window was increased to 50 short and 100 long keeping the baseline 
 
 ## Q3. The best Strategy Return result tested in the data was a 6mth DateOffSet with the SMA set to 4 short and 100 long as shown below.
 
+![Actual vs Strategy return 6mth DateOffSet](https://github.com/Akosah304/machine_learning_trading_bot.ipynb/blob/main/Image/6%20month%20svm.png)
+
 ## Conclusions ##
 
 When comparing the baseline SVM models, the version with the DateOffset parameter set to 6 months was more exact but still had the same accuracy as the 4 month offset. Compared to the baseline, the 4-month SVM was more accurate but not as exact. Compared to the baseline, the six-month period was more exact and accurate. All things considered, the most useful version of the SVM among those examined is the one with the DateOffset set to six months. The 6-month SVM exhibits greater accuracy when compared to the Linear Regression model. Both models were equally accurate, though. The six-month offset SVM is the model that I would advise using. 
