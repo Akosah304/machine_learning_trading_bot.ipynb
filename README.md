@@ -65,6 +65,10 @@ Adjustment of the model to 6month DateOffSet with the same windows produced a St
 
 When the SMA window was increased to 50 short and 100 long keeping the baseline 4month DateOffSet, recall increased to 100 whilst accuracy remained at 56. Similar to the 6month DateOffSet the Strategy and Actual returns are the same with a return of just below 1.4
 
+![SVC Model Prediction SMA 50 - 100 ](https://github.com/Akosah304/machine_learning_trading_bot.ipynb/blob/main/Image/SMA%2050%20-%20100%20SVC%20Model%20Prediction.png)
+
+![Actual vs Strategy Returns SMA 50 - 100 ](https://github.com/Akosah304/machine_learning_trading_bot.ipynb/blob/main/Image/SMA%2050%20-%20100%20%20Actual%20vs%20Strategy%20Returns.png)
+
 ## Q3. The best Strategy Return result tested in the data was a 6mth DateOffSet with the SMA set to 4 short and 100 long as shown below.
 
 ## Conclusions ##
