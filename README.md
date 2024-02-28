@@ -55,25 +55,27 @@ The LogisticRegression classifier was applied to the baseline data and produced 
 
 ![Image/lr report.png](https://github.com/Akosah304/machine_learning_trading_bot.ipynb/blob/main/Image/lr%20report.png)
 
-The accuracy decreased to 52 as a result of this modeling, and although our precision stayed at 56, the recall fell through the floor to 66 in comparison to our baseline of 96, yielding a final return that was less than the Actual Return. Overall, its performance was worser than that of the "tuned" model; nevertheless, testing a variety of SMA windows might have produced better outcomes.
+The accuracy decreased to 52 as a result of this modeling, and although our precision stayed at 56, the recall decreased to 66 in comparison to our baseline of 96, yielding a final return that was less than the Actual Return. Overall, its performance was worser than that of the "tuned" model; nevertheless, testing a variety of SMA windows might have produced better outcomes.
 
 ## Q1: What impact resulted from increasing or decreasing the training window?
 
 Adjustment of the model to 6month DateOffSet with the same windows produced a Strategy Retrun of over 1.8. The recall score also improved from 95 to 98.
 
-![SVC Model Prediction 6mth DateOffSet](https://user-images.githubusercontent.com/110360757/203215795-93c86331-1885-4a75-b80b-691986b836f7.png)
-![Actual vs Strategy return 6mth DateOffSet](https://user-images.githubusercontent.com/110360757/203215810-fa45286a-c494-4fa8-a743-7d20bcb5889f.png)
+![SVC Model Prediction 6mth DateOffSet](https://github.com/Akosah304/machine_learning_trading_bot.ipynb/blob/main/Image/6%20months.png)
 
-A further trial to increase the DateOffSet to 12mth keeping the same indow parameters increased recall to 100but lowered the Strategy Return to just over 1.6 sitting on top of the Actual Return graph.
+![Actual vs Strategy return 6mth DateOffSet](https://github.com/Akosah304/machine_learning_trading_bot.ipynb/blob/main/Image/6%20month%20svm.png)
 
-![SVC Model Prediction 12Mth DateOffSet](https://user-images.githubusercontent.com/110360757/203216118-967b2511-dcc4-4663-a8fe-515d58775858.png)
-![Actual vs Strategy Returns 12mth DateOffSet](https://user-images.githubusercontent.com/110360757/203216270-deeafb94-b20d-4e11-b3d4-2dbaf0000c1e.png)
+While the window parameters remained the same, an additional trial that raised the DateOffSet to 12 months improved recall to 100, but decreased the Strategy Return to little over 1.6, which was positioned above the Actual Return graph.
 
-Increaseing the training window improved both accuracy and recall. The sweet spot seems to be a DateOffSet of 6 monthsin regard to delivering the best return. Increasing te DateOffSet beyond this appears to decrease the return inline with the actual return. 
+![SVC Model Prediction 12Mth DateOffSet](https://github.com/Akosah304/machine_learning_trading_bot.ipynb/blob/main/Image/12Mth%20SVC%20Model%20Prediction.png)
+
+![Actual vs Strategy Returns 12mth DateOffSet](https://github.com/Akosah304/machine_learning_trading_bot.ipynb/blob/main/Image/12mth%20Actual%20vs%20Strategy%20Returns.png)
+
+Accuracy and recall both increased with a longer training window. In terms of yielding the best return, a DateOffSet of six months appears to be the sweet spot. Beyond this, increasing the DateOffSet seems to reduce the return in accordance with the real return. 
 
 ## Q2: What impact resulted from increasing or decreasing either or both of the SMA windows?
 
-When the SMA window was increased to 50 short and 100 long keeping the baseline 4month DateOffSet, recall increased to 100 whilst accuracy remained at 56. Similar to the 6month DateOffSet the Strategy and Actual returns are the same with a return of just below 1.4
+Accuracy stayed at 56, but recall increased to 100 when the SMA window was increased to 50 short and 100 long while maintaining the baseline 4-month DateOffSet. The Strategy and Actual returns are the same, with a return of little less than 1.4, much like the 6-month DateOffSet.
 
 ![SVC Model Prediction SMA 50 - 100 ](https://github.com/Akosah304/machine_learning_trading_bot.ipynb/blob/main/Image/SMA%2050%20-%20100%20SVC%20Model%20Prediction.png)
 
